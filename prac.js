@@ -28,7 +28,18 @@ const value=array[3];
 
 
 
+// let skills = ["HTML", "CSS", "JavaScript", "React"];
+// skills[1]="Tailwind";
+// skills[3]="Node.js"
+// console.log(skills)
+
+
+// let fruits = ["Apple", "Mango", "Banana"];
+// fruits.push("Orange","Grapes");
+// console.log(fruits)
+
+
 let skills = ["HTML", "CSS", "JavaScript", "React"];
-skills[1]="Tailwind";
-skills[3]="Node.js"
+skills.shift();
+skills.pop();
 console.log(skills)
