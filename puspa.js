@@ -1,3 +1,9 @@
 const friends=['robi','manik','sayem','alamin']
 friends.push('rajib')
-console.log(friends)
+// console.log(friends)
+
+
+const numbers=[1,2,3,4,5,6,7,8]
+// console.log(numbers)
+numbers.pop()
+console.log(numbers);
